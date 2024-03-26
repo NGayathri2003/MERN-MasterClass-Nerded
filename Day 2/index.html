@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Customer Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Customer Management System</h1>
+        <form id="customerForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" required>
+            <label for="membership">Membership Type:</label>
+            <select id="membership" required>
+                <option value="Basic">Basic</option>
+                <option value="Standard">Golden</option>
+                <option value="Premium">Platinum</option>
+            </select>
+            <button type="submit">Add Customer</button>
+        </form>
+        <ul id="customerList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
