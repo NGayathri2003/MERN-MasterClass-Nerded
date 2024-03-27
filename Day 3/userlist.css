@@ -1,0 +1,31 @@
+.user-list-container {
+    margin-top: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 8px;
+    border-bottom: 1px solid #76e0b4;
+  }
+  
+  .user-table th {
+    background-color: #ca8bdd;
+  }
+  
+  .user-table td button {
+    padding: 6px 10px;
+    background-color: #4556b6;
+    color: rgb(32, 31, 31);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-table td button:hover {
+    background-color: #4556b6;
+  }
